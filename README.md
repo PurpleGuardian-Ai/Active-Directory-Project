@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Active Directory and Splunk Network Lab
 
 This project demonstrates the configuration and management of an Active Directory environment integrated with Splunk for log monitoring and analysis. The lab environment was built using VirtualBox and includes the following components:
