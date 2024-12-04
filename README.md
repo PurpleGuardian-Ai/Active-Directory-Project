@@ -27,9 +27,10 @@ In this project, I designed and built a network in a virtualized environment wit
 ## Steps Taken
 
 1. **Network Design**: Designed the network topology with two servers, a client, and an attacker machine. Configured all virtual machines to communicate using static IPs.
-<p align="center">
+
+<div align="center">
   <img src="https://i.imgur.com/zwyRFuv.png" alt="Network Diagram" width="300">
-</p>
+</div>
 
 
 3. **Active Directory Setup**: Configured the Windows Server as a domain controller, setting up the Active Directory environment.
