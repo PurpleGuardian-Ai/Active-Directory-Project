@@ -58,13 +58,27 @@ Verified network configurations using:
 
 **Active Directory Setup**: Configured the Windows Server as a domain controller, setting up the Active Directory environment.
 
-**Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
+**Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server. Make sure to create a Inputs.conf file in the Local directory with the following instructions.
+
+<p align="center">
+  <strong>Inputs Configuration to send to Endpoint</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/VRXpgWR.png" alt="Inputs conf" width="600">
+</div>
 
 <p align="center">
   <strong>Splunk Forwarder Setup</strong>
 </p>
 <div align="center">
-  <img src="https://i.imgur.com/IWMPyqi.png" alt="Splunk Setup" width="600">
+  <img src="https://i.imgur.com/IWMPyqi.png" alt="Splunk Setup" width="800">
+</div>
+
+<p align="center">
+  <strong>Splunk Server Setup</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/vUGPDp3.png" alt="Splunk Server Setup" width="800">
 </div>
 
 **Installed Sysmon for Enhanced Logging**: 
@@ -72,6 +86,21 @@ Verified network configurations using:
 - Sysmon was configured to enhance the logging capabilities of the environment, helping to monitor and log key events for analysis and security auditing in the Active Directory setup.
 
 **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
+
+### Configured Active Directory Domain Controller and Organizational Units
+
+**Objective:** Set up the Windows Server as the main Domain Controller for Active Directory.
+
+**Promoted Windows Server to Domain Controller:**
+   - Made the Windows Server the primary **Domain Controller** for the Active Directory environment.
+   - Signed in as **Administrator** to perform the necessary configurations.
+
+**Created Organizational Units (OUs):**
+   - Created two **Organizational Units** (OUs) to structure the directory:
+     - **I.T** OU with the user **jsmith**.
+     - **H.R** OU with the user **tsmith**.
+   - This organizational structure helps streamline management by grouping users according to their departments.
+
 
 ## Key Challenges & Solutions
 
