@@ -61,21 +61,21 @@ Verified network configurations using:
 **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
 
 **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
+
+## Key Challenges & Solutions
+
+**Static IP Configuration**: Initially faced issues with the Splunk server not accepting the static IP. Resolved by editing the YAML configuration file to manually assign the correct IP address. 
+
 <p align="center">
   <strong>My YAML Solution</strong>
+</p>
 <div align="center">
   <img src="https://i.imgur.com/RioE2J2.png" alt="YAML Solution" width="600">
 </div>
 
-
-
-## Key Challenges & Solutions
-
-- **Static IP Configuration**: Initially faced issues with the Splunk server not accepting the static IP. Resolved by editing the YAML configuration file to manually assign the correct IP address.
-- **Network Communication**: Ensured all virtual machines were able to communicate by troubleshooting and assigning IP addresses manually.
+**Network Communication**: Ensured all virtual machines were able to communicate by troubleshooting and assigning IP addresses manually.
 
 ## Tools and Technologies
-
 - VirtualBox
 - Windows Server 2019
 - Windows 10
@@ -84,3 +84,4 @@ Verified network configurations using:
 - Splunk Universal Forwarders
 - YAML Configuration Files
 - Networking (Static IP, DHCP, Routing)
+
