@@ -60,6 +60,13 @@ Verified network configurations using:
 
 **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
 
+<p align="center">
+  <strong>Splunk Forwarder Setup</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/IWMPyqi.png" alt="Splunk Setup" width="600">
+</div>
+
 **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
 
 ## Key Challenges & Solutions
