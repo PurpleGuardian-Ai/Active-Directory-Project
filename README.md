@@ -45,7 +45,7 @@ Static IP Assignments:
 - Kali Linux: 192.168.10.250
 
 <p align="center">
-  <strong>Active Directory IP</strong>
+  <strong>Ex: Active Directory IP</strong>
 </p>
 <div align="center">
   <img src="https://i.imgur.com/JgURU2B.png" alt="Active Directoy IP" width="400">
