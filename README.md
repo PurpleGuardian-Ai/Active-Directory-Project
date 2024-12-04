@@ -32,11 +32,41 @@ In this project, I designed and built a network in a virtualized environment wit
   <img src="https://i.imgur.com/zwyRFuv.png" alt="Network Diagram" width="600">
 </div>
 
+2. **Downloaded and Configured Virtual Machines**: Obtained ISO images for the required operating systems:
+- Ubuntu Server (for Splunk).
+- Windows Server (for Active Directory).
+- Kali Linux (as an attacker machine).
+- Windows 10 (as a target machine).
+- Set up each machine within VirtualBox.
+3. **Assigned Static IP Addresses**: Configured network interfaces manually for consistent and predictable communication.
+Static IP Assignments:
+- Splunk Server: 192.168.10.10
+- Active Directory Server: 192.168.10.7
+- Windows 10: 192.168.10.100
+- Kali Linux: 192.168.10.250
 
-3. **Active Directory Setup**: Configured the Windows Server as a domain controller, setting up the Active Directory environment.
-4. **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
-5. **Static IP Assignment**: Disabled DHCP and manually configured static IP addresses for all machines to ensure consistent network communication.
-6. **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
+<p align="center">
+  <strong>Active Directory IP</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/JgURU2B.png" alt="Active Directoy IP" width="400">
+</div>
+
+4. **Validated Network Connectivity**: Used ping to ensure all machines could communicate effectively.
+Verified network configurations using:
+- ipconfig on Windows-based machines.
+- ifconfig on Linux-based machines.
+
+5. **Active Directory Setup**: Configured the Windows Server as a domain controller, setting up the Active Directory environment.
+
+6. **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
+
+7. **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
+<p align="center">
+  <strong>My YAML Solution</strong>
+<div align="center">
+  <img src="https://i.imgur.com/RioE2J2.png" alt="YAML Solution" width="600">
+</div>
 
 ## Key Challenges & Solutions
 
