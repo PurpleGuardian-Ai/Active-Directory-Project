@@ -62,11 +62,13 @@ Verified network configurations using:
 6. **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
 
 7. **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
+
 <p align="center">
   <strong>My YAML Solution</strong>
 <div align="center">
   <img src="https://i.imgur.com/RioE2J2.png" alt="YAML Solution" width="600">
 </div>
+
 
 ## Key Challenges & Solutions
 
