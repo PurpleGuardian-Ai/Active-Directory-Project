@@ -67,6 +67,10 @@ Verified network configurations using:
   <img src="https://i.imgur.com/IWMPyqi.png" alt="Splunk Setup" width="600">
 </div>
 
+**Installed Sysmon for Enhanced Logging**: 
+- Installed Sysmon, a system monitoring tool developed by Olaf Hartong, to capture detailed system activity, including process creation, network connections, and changes to file creation time.
+- Sysmon was configured to enhance the logging capabilities of the environment, helping to monitor and log key events for analysis and security auditing in the Active Directory setup.
+
 **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
 
 ## Key Challenges & Solutions
