@@ -68,6 +68,7 @@ Verified network configurations using:
 </div>
 
 
+
 ## Key Challenges & Solutions
 
 - **Static IP Configuration**: Initially faced issues with the Splunk server not accepting the static IP. Resolved by editing the YAML configuration file to manually assign the correct IP address.
@@ -83,9 +84,3 @@ Verified network configurations using:
 - Splunk Universal Forwarders
 - YAML Configuration Files
 - Networking (Static IP, DHCP, Routing)
-
-## Installation
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/Active-Directory-Splunk-Lab.git
