@@ -27,7 +27,6 @@ In this project, I designed and built a network in a virtualized environment wit
 ## Steps Taken
 
 1. **Network Design**: Designed the network topology with two servers, a client, and an attacker machine. Configured all virtual machines to communicate using static IPs.
-
 <div align="center">
   <img src="https://i.imgur.com/zwyRFuv.png" alt="Network Diagram" width="600">
 </div>
@@ -51,7 +50,6 @@ Static IP Assignments:
 <div align="center">
   <img src="https://i.imgur.com/JgURU2B.png" alt="Active Directoy IP" width="400">
 </div>
-
 4. **Validated Network Connectivity**: Used ping to ensure all machines could communicate effectively.
 Verified network configurations using:
 - ipconfig on Windows-based machines.
@@ -62,7 +60,6 @@ Verified network configurations using:
 6. **Splunk Configuration**: Installed and configured Splunk Universal Forwarders on both the Active Directory and Windows 10 machines to forward logs to the Splunk server.
 
 7. **Troubleshooting**: Encountered and resolved issues with static IP assignment on the Splunk server by editing the YAML configuration file.
-
 <p align="center">
   <strong>My YAML Solution</strong>
 <div align="center">
