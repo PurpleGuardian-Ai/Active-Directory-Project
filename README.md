@@ -50,6 +50,7 @@ Static IP Assignments:
 <div align="center">
   <img src="https://i.imgur.com/JgURU2B.png" alt="Active Directoy IP" width="400">
 </div>
+
 4. **Validated Network Connectivity**: Used ping to ensure all machines could communicate effectively.
 Verified network configurations using:
 - ipconfig on Windows-based machines.
