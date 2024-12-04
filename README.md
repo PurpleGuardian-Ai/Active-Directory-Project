@@ -29,7 +29,7 @@ In this project, I designed and built a network in a virtualized environment wit
 1. **Network Design**: Designed the network topology with two servers, a client, and an attacker machine. Configured all virtual machines to communicate using static IPs.
 
 <div align="center">
-  <img src="https://i.imgur.com/zwyRFuv.png" alt="Network Diagram" width="300">
+  <img src="https://i.imgur.com/zwyRFuv.png" alt="Network Diagram" width="600">
 </div>
 
 
