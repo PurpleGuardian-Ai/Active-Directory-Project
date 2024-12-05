@@ -10,11 +10,28 @@ This project demonstrates the configuration and management of an Active Director
 
 ## Project Overview
 
-In this project, I designed and built a network in a virtualized environment with the following goals:
-1. Set up two servers (Splunk and Windows Active Directory) alongside a Windows 10 client and a Kali Linux attacker machine.
-2. Install Splunk Universal Forwarders on both the Active Directory and Windows 10 target machines to send log data to the Splunk server.
-3. Manually assign static IP addresses to all machines in the network after disabling DHCP.
-4. Troubleshoot network configuration issues, including resolving IP assignment problems on the Splunk server by editing its YAML configuration file.
+This project involves setting up an Active Directory environment with multiple virtual machines and configuring a network for security monitoring and analysis. Key components of the project include:
+
+1. **Network Setup:**
+   - Four virtual machines (Ubuntu Server, Windows Server, Kali Linux, and Windows 10) configured on VirtualBox.
+   - Static IP addresses manually assigned to each machine for predictable communication.
+   - Tools like **ping**, **ipconfig**, and **ifconfig** used to validate network connectivity.
+
+2. **Active Directory Configuration:**
+   - Windows Server set as the Domain Controller.
+   - Created Organizational Units:
+     - **I.T** with user **jsmith**.
+     - **H.R** with user **tsmith**.
+
+3. **Security Monitoring with Splunk and Sysmon:**
+   - Installed **Sysmon** by Olaf Hartong for detailed system logging.
+   - Logs from the Active Directory server and Windows 10 machine forwarded to the Splunk server for analysis.
+
+4. **Brute Force Attack Simulation:**
+   - Performed a brute force attack using **Crowbar** on the **tsmith** account.
+   - Used a `rockyou.txt` file with 22 password combinations, one of which was correct.
+   - Observed and analyzed the logs in Splunk to identify evidence of the brute force attack.
+
 
 ## Components
 
