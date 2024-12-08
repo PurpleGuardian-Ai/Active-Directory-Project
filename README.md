@@ -54,6 +54,7 @@ This project involves setting up an Active Directory environment with multiple v
 - Kali Linux (as an attacker machine).
 - Windows 10 (as a target machine).
 - Set up each machine within VirtualBox.
+
 **Assigned Static IP Addresses**: Configured network interfaces manually for consistent and predictable communication.
 Static IP Assignments:
 - Splunk Server: 192.168.10.10
@@ -117,6 +118,36 @@ Verified network configurations using:
      - **I.T** OU with the user **jsmith**.
      - **H.R** OU with the user **tsmith**.
    - This organizational structure helps streamline management by grouping users according to their departments.
+
+### Final Step Brute Force Attack Simulation and Splunk Analysis
+
+**Objective:** Simulate a brute force attack to observe and analyze log details in Splunk. 
+
+**Important Note:** Make sure to enable RDP on the windows machine before attacking.
+
+1. **Installed Crowbar on Kali Linux:**
+   - Used the following command to install Crowbar:
+     ```bash
+     sudo apt-get install -y crowbar
+     ```
+
+2. **Executed Brute Force Attack:**
+   - Targeted the **tsmith** account on the Active Directory domain.
+   - Used a modified **rockyou.txt** file called passwords.txt containing 22 password combinations, one of which was correct.
+     ```bash
+     crowbar -b rdp -u tsmith -C passwords.txt -s 192.168.10.100/32
+     ```
+   - Observed and documented the behavior and response of the system.
+
+3. **Log Analysis in Splunk:**
+   - Analyzed the attack logs in Splunk to identify key details.
+<p align="center">
+  <strong>Splunk Index Search</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/rhx5XPg.png" alt="Splunk Search" width="800">
+</div>
+   - Observed Event Code **4625**, which indicates failed login attempts and detailed summary.
 
 
 ## Key Challenges & Solutions
