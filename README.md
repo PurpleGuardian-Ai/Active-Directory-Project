@@ -173,15 +173,47 @@ Verified network configurations using:
   <img src="https://i.imgur.com/RioE2J2.png" alt="YAML Solution" width="600">
 </div>
 
-**Network Communication**: Ensured all virtual machines were able to communicate by troubleshooting and assigning IP addresses manually.
+## 🛠 Skills Gained
 
-## Tools and Technologies
-- VirtualBox
-- Windows Server 2019
-- Windows 10
-- Kali Linux
-- Splunk Enterprise
-- Splunk Universal Forwarders
-- YAML Configuration Files
-- Networking (Static IP, DHCP, Routing)
+This project has helped me develop and refine the following skills:
+
+### 🔧 Technical Skills
+- **Active Directory**: Designed and configured a Windows-based Active Directory domain with organizational units and user accounts.
+- **Network Configuration**:
+  - Assigned static IP addresses manually and configured network settings.
+  - Disabled DHCP and validated network communication using tools like `ping`, `ipconfig`, and `ifconfig`.
+- **Log Monitoring with Splunk**:
+  - Installed and configured Splunk Universal Forwarders for log collection.
+  - Analyzed logs in Splunk for security events (e.g., brute force attacks) and interpreted Event ID 4625.
+- **System Hardening**:
+  - Installed and configured Sysmon to enhance system logging capabilities.
+- **Virtualization**: Set up multiple virtual machines (Windows Server, Windows 10, Ubuntu, and Kali Linux) using VirtualBox.
+- **Brute Force Testing**: Simulated brute force attacks with Crowbar to analyze security logs and test defenses.
+
+### 💡 Soft Skills
+- **Troubleshooting**: Resolved network configuration issues, including editing YAML configuration files.
+- **Documentation**: Created a detailed network diagram and recorded all processes for reproducibility.
+- **Project Management**: Planned, executed, and documented a complex multi-system cybersecurity project.
+- **Critical Thinking**: Interpreted system logs and identified patterns related to potential attacks.
+
+### ⚙️ Tools and Technologies
+- **Operating Systems**:
+  - Windows Server
+  - Windows 10
+  - Kali Linux
+  - Ubuntu Server
+- **Networking Tools**:
+  - `ping`, `ipconfig`, `ifconfig`
+  - Static IP Addressing
+- **Security Tools**:
+  - Splunk
+  - Sysmon
+  - Crowbar
+- **Virtualization**:
+  - Oracle VirtualBox
+- **Other**:
+  - `rockyou.txt` for brute force testing
+
+### 🌟 Summary
+This project has significantly improved my understanding of Active Directory, log analysis, and network security. It has also provided me with hands-on experience in detecting and responding to security events.
 
