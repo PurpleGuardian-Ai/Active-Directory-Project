@@ -148,7 +148,19 @@ Verified network configurations using:
   <img src="https://i.imgur.com/rhx5XPg.png" alt="Splunk Search" width="800">
 </div>
    - Observed Event Code **4625**, which indicates failed login attempts and detailed summary.
+<p align="center">
+  <strong>Event codes</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/hNV8T1T.png" alt="Event Code" width="700">
+</div>
 
+<p align="center">
+  <strong>Event Details</strong>
+</p>
+<div align="center">
+  <img src="https://i.imgur.com/7ajK15w.png" alt="Event details" width="700">
+</div>
 
 ## Key Challenges & Solutions
 
