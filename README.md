@@ -130,7 +130,6 @@ Verified network configurations using:
 
       ```bash
      sudo apt-get install -y crowbar
-     ```
 
 2. **Executed Brute Force Attack:**
    - Targeted the **tsmith** account on the Active Directory domain.
@@ -138,7 +137,7 @@ Verified network configurations using:
 
       ```bash
      crowbar -b rdp -u tsmith -C passwords.txt -s 192.168.10.100/32
-     ```
+     
    - Observed and documented the behavior and response of the system.
 
 3. **Log Analysis in Splunk:**
