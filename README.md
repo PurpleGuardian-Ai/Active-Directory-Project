@@ -127,17 +127,17 @@ Verified network configurations using:
 
 1. **Installed Crowbar on Kali Linux:**
    - Used the following command to install Crowbar:
-
-      ```bash
-     sudo apt-get install -y crowbar
+```bash
+sudo apt-get install -y crowbar
+```
 
 2. **Executed Brute Force Attack:**
    - Targeted the **tsmith** account on the Active Directory domain.
    - Used a modified **rockyou.txt** file called passwords.txt containing 22 password combinations, one of which was correct.
 
-      ```bash
-     crowbar -b rdp -u tsmith -C passwords.txt -s 192.168.10.100/32
-     
+```bash
+crowbar -b rdp -u tsmith -C passwords.txt -s 192.168.10.100/32
+```
    - Observed and documented the behavior and response of the system.
 
 3. **Log Analysis in Splunk:**
